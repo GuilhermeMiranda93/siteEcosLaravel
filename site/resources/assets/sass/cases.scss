@@ -1,0 +1,42 @@
+#cases{
+
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+
+	.pagination {
+		margin-bottom: 30px;
+	}
+
+	.div-img{
+		overflow: hidden;
+	}
+
+	.hover-img{
+		transform: rotate(15deg) scale(1.5,1.5);
+	}
+
+	.card-img-top{
+		transition: transform ease 1s;
+	}
+
+	.link-underline::before {
+		content: "";
+		width: 0%;
+		position: relative;
+		top: 30px;
+		height: 8px;
+		right: 100%;
+		left: 0;
+		background-color: rgba($bg-dark,.8);
+		display: block;
+		-webkit-transition: 0.2s;
+		-o-transition: 0.2s;
+		transition: 0.2s;
+	}
+
+	.link-underline:hover:before, .link-underline:focus:before {
+		width: 100%; 
+	}
+
+}

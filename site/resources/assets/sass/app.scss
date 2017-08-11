@@ -1,0 +1,125 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+// Variables
+@import "variables";
+
+// Footer
+@import "footer";
+
+// Contato
+@import "contato";
+
+// A Ecos
+@import "aecos";
+
+// Cases
+@import "cases";
+
+// Serviços
+@import "servicos";
+
+//Font Awesome
+@import "font-awesome";
+
+// Light Gallery Custom
+@import "lg-custom";
+
+// Lightbox
+@import "lightbox";
+
+// Animations
+@import "animation";
+
+// FullPage
+@import "jquery.fullPage";
+
+//Responsive Services
+@import "responsive";
+
+body{
+	overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Patua One', sans-serif !important;
+	font-size: 2.5rem;
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	padding-top: 54px;
+}
+
+.img-max{
+	width: 100%;
+}
+
+span{
+	color: $ecos;
+}
+
+.sr-ecos{
+	visibility: hidden;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+
+@media (max-width: 1200px){
+	.block h1{
+		font-size: 35pt;
+	}
+}
+
+@media (max-width: 940px){
+	.block h1{
+		font-size: 25pt;
+	}
+}
+
+@media (max-width: 800px){
+	.background-text{
+		padding: 7em;
+		padding-left: 5em;
+		padding-right: 3em;
+	}
+}
+
+@media (max-width: 580px){
+	.background-text{
+		-webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+		clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+	}
+}
+
+@media (max-width: 500px){
+	.block h1{
+		font-size: 19pt;
+	}
+}
+
+@media (max-width: 400px){
+	.background-text{
+		padding: 5em;
+		padding-left: 3em;
+		padding-right: 1em;
+	}
+}

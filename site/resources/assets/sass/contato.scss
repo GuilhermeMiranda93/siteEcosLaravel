@@ -1,0 +1,17 @@
+.formulario-contato{
+    min-height: 65vh;
+    padding: 5em;
+}
+
+.formulario-contato-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-ecos{
+    background-color: $ecos;
+    border: none;
+    color: white;
+}

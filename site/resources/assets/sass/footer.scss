@@ -1,0 +1,27 @@
+@import "variables";
+
+footer{
+	.bg-inverse {
+		background-color: $bg-dark !important;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+	}
+	li{
+		color: #fff;
+		line-height: 16px;
+	}
+	a{
+		font-weight: 400;
+		color: #fff;
+		font-size: 12px; 
+		&:hover{
+			color: #fff;
+		}
+	}
+}
+.footer-info {
+	border-top: 1px solid #fff;
+	background-color: #d20500 !important;
+}

@@ -1,0 +1,47 @@
+#services{
+	.portfolio-item{
+
+		margin-bottom: 30px;
+
+		a{
+			text-decoration: none;
+			color: black;
+			font-weight: 400;
+			overflow: hidden;
+		}
+		.div-img{
+			overflow: hidden;
+			height: 200px;
+		}
+		img{
+			transition: transform ease 1s;
+		}
+		h4{
+			color: $ecos;
+			font-weight: bold;
+		}
+	}
+
+	.hover-img{
+		transform: rotate(15deg) scale(1.5,1.5);
+	}
+
+	.btn-cta{
+		background-color: $ecos;
+		color: white;
+		text-decoration: none;
+		border-radius: 100px;
+		&:hover{
+			color: black;
+		}
+	}
+
+	.cta{
+		background-image: radial-gradient(#FFF, #EEE);
+		margin: 2em;
+		margin-left: .5em;
+		margin-right: .5em;
+		display: flex;
+		align-items: center;
+	}
+}
